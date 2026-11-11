@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="NES Blockchain — ศูนย์รวมเครื่องมือและโครงการ Compute Over Data">
+<title>NES Blockchain | Compute Over Data</title>
+<style>
+:root{color-scheme:dark;--bg:#07111f;--panel:#0e1d31;--line:#203854;--text:#edf6ff;--muted:#a9bdd3;--accent:#6be0c7;--accent2:#8bb7ff}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#173a56 0,transparent 38%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:.08em}.brand span{color:var(--accent)}.navlinks{display:flex;gap:22px;color:var(--muted);font-size:.95rem}.navlinks a:hover{color:var(--accent)}main{padding:76px 0 48px}.eyebrow{color:var(--accent);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem}.hero{max-width:780px}.hero h1{font-size:clamp(2.5rem,7vw,5.6rem);line-height:1.02;margin:18px 0}.hero h1 em{font-style:normal;color:var(--accent)}.hero p{color:var(--muted);font-size:1.15rem;max-width:680px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.button{display:inline-block;padding:12px 18px;border-radius:10px;background:var(--accent);color:#062b26;font-weight:800}.button.alt{background:transparent;color:var(--text);border:1px solid var(--line)}.button:hover{transform:translateY(-1px);filter:brightness(1.08)}.section{padding:34px 0}.section h2{font-size:1.8rem;margin:0 0 8px}.section>p{color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}.card{background:linear-gradient(145deg,rgba(14,29,49,.96),rgba(9,22,38,.96));border:1px solid var(--line);border-radius:16px;padding:22px}.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0}.tag{display:inline-block;color:var(--accent2);font-size:.8rem;margin-bottom:14px}.note{border-left:3px solid var(--accent);padding:16px 18px;background:rgba(107,224,199,.06);color:var(--muted);margin-top:24px}.note strong{color:var(--text)}footer{border-top:1px solid var(--line);padding:26px 0 40px;color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:20px}@media(max-width:720px){.wrap{width:min(100% - 28px,1120px)}.navlinks{gap:10px;font-size:.82rem}.cards{grid-template-columns:1fr}main{padding-top:54px}footer{display:block}footer p{margin:8px 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="เมนูหลัก">
+<a class="brand" href="./"><span>NES</span> BLOCKCHAIN</a>
+<div class="navlinks"><a href="#projects">โครงการ</a><a href="#principles">แนวทาง</a><a href="https://github.com/nblock-world-cod" rel="noopener">GitHub ↗</a></div>
+</nav>
+<main>
+<section class="hero">
+<div class="eyebrow">Compute Over Data · Open tools</div>
+<h1>โครงสร้างพื้นฐาน<br><em>สำหรับข้อมูลและเครื่องมือ</em></h1>
+<p>NES Blockchain เป็นศูนย์รวมโครงการทดลอง เครื่องมือ และแนวคิดสำหรับการทำงานกับข้อมูลแบบตรวจสอบได้ โดยให้ความสำคัญกับความปลอดภัย ความโปร่งใส และการควบคุมข้อมูลของผู้ใช้</p>
+<div class="actions"><a class="button" href="https://github.com/nblock-world-cod/nes-SHA-256-Generator" rel="noopener">เปิด SHA-256 Generator</a><a class="button alt" href="https://github.com/nblock-world-cod/nesblockchain.com" rel="noopener">ดูซอร์สโค้ด</a></div>
+</section>
+<section class="section" id="projects">
+<h2>โครงการและเครื่องมือ</h2>
+<p>เริ่มต้นจากเครื่องมือที่ใช้งานได้ในเบราว์เซอร์และโครงการโอเพนซอร์สที่ตรวจสอบได้</p>
+<div class="cards">
+<article class="card"><span class="tag">UTILITY</span><h3>SHA-256 Generator</h3><p>สร้างรหัสเรียงลำดับและคำนวณ SHA-256 ด้วย Web Crypto API บนอุปกรณ์ของคุณ พร้อมดาวน์โหลดผลลัพธ์เป็น CSV หรือ JSON</p></article>
+<article class="card"><span class="tag">LOCAL WINDOWS TOOL</span><h3>SSH Key Generator</h3><p>สคริปต์ Windows สำหรับสร้าง Ed25519 key และบันทึกในโฟลเดอร์ .ssh โดยไม่ส่ง private key ออกจากเครื่อง</p></article>
+<article class="card"><span class="tag">OPEN SOURCE</span><h3>Repository-first</h3><p>ซอร์สโค้ดและเอกสารเผยแพร่ผ่าน GitHub เพื่อให้ตรวจสอบการเปลี่ยนแปลงและนำไปศึกษาต่อได้</p></article>
+</div>
+</section>
+<section class="section" id="principles">
+<h2>หลักการทำงาน</h2>
+<div class="note"><strong>ความปลอดภัยมาก่อน:</strong> เครื่องมือบนเว็บไซต์จะไม่สามารถเขียนไฟล์ .ssh ของ Windows โดยตรง การสร้าง SSH key ต้องรันสคริปต์ในเครื่องของผู้ใช้เอง และ private key ไม่ควรถูกอัปโหลดไปยัง GitHub หรือบริการใด ๆ</div>
+<div class="note"><strong>สถานะโครงการ:</strong> หน้าเว็บนี้เป็นศูนย์รวมข้อมูลและเครื่องมือแบบ static ไม่ได้อ้างว่าเป็น public blockchain หรือระบบ production ที่กำลังให้บริการอยู่</div>
+</section>
+</main>
+<footer><div>© NES Blockchain</div><div><a href="https://github.com/nblock-world-cod" rel="noopener">github.com/nblock-world-cod ↗</a></div></footer>
+</div>
+</body>
+</html>
