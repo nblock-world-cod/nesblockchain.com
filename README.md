@@ -12,6 +12,14 @@
 
 - [Tasamlee Rent Report](https://tasamlee-rent-report.nes-nblock.chatgpt.site/)
 
+## MCP และระบบที่เกี่ยวข้อง
+
+- [MCP Repository บน GitHub](https://github.com/nblock-world-cod/mcp)
+- [IPFS](https://ipfs.tech/)
+- [OneDrive](https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage)
+
+ลิงก์ข้างต้นเป็นลิงก์อ้างอิงไปยังโครงการและบริการที่เกี่ยวข้อง ยังไม่ใช่หลักฐานว่ามีการเชื่อมต่อ MCP กับ IPFS หรือ OneDrive สำเร็จแล้ว
+
 ### GitHub
 
 - [เว็บไซต์หลักและ index](https://github.com/nblock-world-cod/nesblockchain.com)
