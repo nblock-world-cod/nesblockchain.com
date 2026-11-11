@@ -7,12 +7,12 @@
 ### MCP สำหรับเชื่อมต่อ server
 
 - [Secrets Server](https://secrets-server.nes-nblock.chatgpt.site/)
+- [CoD Windows Observatory](https://cod-windows-observatory.nes-nblock.chatgpt.site/)
+- [CoD Path Observatory](https://cod-path-observatory.nes-nblock.chatgpt.site/)
 
 ### เว็บ USER
 
 - [Tasamlee Rent Report](https://tasamlee-rent-report.nes-nblock.chatgpt.site/)
-- [CoD Windows Observatory](https://cod-windows-observatory.nes-nblock.chatgpt.site/)
-- [CoD Path Observatory](https://cod-path-observatory.nes-nblock.chatgpt.site/)
 
 ### GitHub
 
@@ -22,4 +22,4 @@
 
 ## หมายเหตุ
 
-Secrets Server และ Observatory บางเส้นทางอาจต้องมีสิทธิ์หรือการยืนยันตัวตนจึงจะเข้าใช้งานได้ การตอบกลับ HTTP 401 ไม่ได้แปลว่าบริการเสีย แต่หมายถึงต้องยืนยันตัวตนก่อนใช้งาน
+บริการ MCP และเว็บ USER บางเส้นทางอาจต้องมีสิทธิ์หรือการยืนยันตัวตนจึงจะเข้าใช้งานได้ การตอบกลับ HTTP 401 หมายถึงต้องยืนยันตัวตนก่อนใช้งาน
